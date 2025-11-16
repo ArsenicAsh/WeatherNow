@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>WeatherNow — Minimal Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="WeatherNow — search city weather (OpenWeather) | GitHub-ready" />
+</head>
+<body>
+  <main class="app">
+    <div class="card glass">
+      <header class="header">
+        <h1 class="title">WeatherNow</h1>
+        <small class="subtitle">Search city — powered by OpenWeather</small>
+      </header>
+
+      <section class="search">
+        <input id="cityInput" type="search" placeholder="Enter city (e.g. Mumbai)" />
+        <button id="searchBtn" aria-label="Search">Search</button>
+      </section>
+
+      <section id="result" class="result hidden">
+        <div class="top">
+          <div class="city">
+            <h2 id="cityName">—</h2>
+            <p id="localTime" class="muted">—</p>
+          </div>
+          <div class="temp">
+            <h3 id="temp">—°C</h3>
+            <p id="desc" class="muted">—</p>
+          </div>
+        </div>
+
+        <div class="details">
+          <div class="detail">
+            <strong id="feels">—</strong>
+            <span>Feels like</span>
+          </div>
+          <div class="detail">
+            <strong id="humidity">—</strong>
+            <span>Humidity</span>
+          </div>
+          <div class="detail">
+            <strong id="wind">—</strong>
+            <span>Wind</span>
+          </div>
+        </div>
+      </section>
+
+      <p id="error" class="error hidden"></p>
+
+      <footer class="footer">
+        <button id="useLast" class="link small">Use last searched</button>
+        <span class="credits">Built with HTML/CSS/JS • <a href="https://openweathermap.org/" target="_blank" rel="noopener">OpenWeather</a></span>
+      </footer>
+    </div>
+  </main>
+
+  <!-- config.js should define OPENWEATHER_API_KEY (NOT committed) -->
+  <script src="config.js" defer></script>
+  <script src="script.js" defer></script>
+</body>
+</html>

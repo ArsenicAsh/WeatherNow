@@ -1,0 +1,7 @@
+# do not commit your API key
+config.js
+
+# OS / IDE files
+.DS_Store
+.vscode/
+node_modules/
