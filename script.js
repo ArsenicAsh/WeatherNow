@@ -21,7 +21,7 @@ const elements = {
   useLast: document.getElementById('useLast'),
 };
 
-const API_KEY = (typeof OPENWEATHER_API_KEY !== 'undefined') ? OPENWEATHER_API_KEY.trim() : '';
+const API_KEY = "53e86d19adc46235eabb7df5053dda0b";
 
 function showError(msg) {
   elements.error.textContent = msg;
