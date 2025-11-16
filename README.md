@@ -41,6 +41,3 @@ Users can search for any city and instantly get:
 | **JavaScript (ES6)** | API handling & DOM manipulation |
 | **OpenWeather API** | Real-time weather data |
 
----
-
-## 📁 Project Structure
