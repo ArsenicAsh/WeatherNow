@@ -17,7 +17,7 @@ Users can search for any city and instantly get:
 ---
 
 ## 🖼️ Live Demo
-🔗 **[https://yourusername.github.io/WeatherNow](https://arsenicash.github.io/WeatherNow/)**  
+🔗 **[https://arsenicash.github.io/WeatherNow](https://arsenicash.github.io/WeatherNow/)**  
 
 ---
 
