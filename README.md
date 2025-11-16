@@ -1,20 +1,46 @@
-# WeatherNow
+# 🌦️ WeatherNow — Real-Time Weather Dashboard
+*A simple, fast, and responsive weather web app built using HTML, CSS, and JavaScript.*
 
-Minimal, GitHub-ready weather app (HTML/CSS/JS) that fetches current weather from OpenWeather.
+---
 
-## Features
-- Search weather by city name.
-- Shows temperature, description, feels-like, humidity, wind.
-- Dynamic theme based on weather condition.
-- Last searched city persisted in localStorage.
-- Clean glassmorphism UI — mobile responsive.
-- No build step; static files only — perfect for GitHub Pages.
+## 🚀 Overview
+**WeatherNow** is a lightweight weather application that fetches real-time weather details using the OpenWeather API.  
+It is built using only **HTML, CSS, and Vanilla JavaScript**, making it perfect for beginners and a strong addition to your resume.
 
-## Setup (local)
-1. **Get an OpenWeather API key**:
-   - Sign up at https://openweathermap.org/ and get your API key (APPID). OpenWeather requires an API key for calls. :contentReference[oaicite:3]{index=3}
+Users can search for any city and instantly get:
+- Temperature  
+- Humidity  
+- Wind Speed  
+- Weather Conditions  
+- Dynamic Weather Icons  
 
-2. **Clone / copy repo**:
-```bash
-git clone <your-repo-url>
-cd WeatherNow
+---
+
+## 🖼️ Live Demo
+🔗 **https://yourusername.github.io/WeatherNow**  
+*(Replace with your actual GitHub Pages link.)*
+
+---
+
+## ✨ Features
+- 🔍 Search weather by city name  
+- 🌡️ Real-time temperature & conditions  
+- 💨 Wind speed & humidity info  
+- 🌄 Dynamic weather icons  
+- 📱 Fully responsive UI  
+- ⚡ Fast and lightweight  
+- 🌍 Cross-browser support  
+
+---
+
+## 🛠️ Tech Stack
+| Technology | Purpose |
+|-----------|---------|
+| **HTML5** | Structure |
+| **CSS3** | Styling & responsive layout |
+| **JavaScript (ES6)** | API handling & DOM manipulation |
+| **OpenWeather API** | Real-time weather data |
+
+---
+
+## 📁 Project Structure
